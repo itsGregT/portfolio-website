@@ -1,0 +1,142 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hop Heavy</title>
+</head>
+<body>
+	<div id="background">
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">Beers</a></li>
+					<li><a href="#">Breweries</a></li>
+					<li><a href="#">Submit a Friend</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<img src="./img/hopheavy-logo.png">
+		</header>
+		<img src="./img/icons/mobile-nav-icon.jpg" id="mobile-nav-icon">
+		<div class="mobile-nav">
+				<ul>
+					<li><a href="#">Beers</a></li>
+					<li><a href="#">Breweries</a></li>
+					<li><a href="#">Submit a Friend</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		<div id="headline">
+			<h1>Discovering beer <br>just got easier.</h1>
+			<button id="learn-more">Learn More</button>
+		</div>
+	</div>
+	<div class="container">
+		<div class="main-content">
+			<div id="left-col">
+				<h3>Prepare to find your next favorite beer.</h3>
+				<p>We start by learning you favorite beers and then matching similar and local beers to you favorites. Through our advice and the advice of the Hop Heavy community we will introduce you to your new favorite beer.</p>
+				<p>We're a company that is passionate about beer. We are confident that we will pair you with your new favorite local brew. Join our growing community of beer lovers.</p>
+			</div>
+			<div id="right-col">
+				<form>
+					<label id="fav-label">What's your favorite beer?</label><br>
+					<input type="text" name="fav-beer" value="Your Favorite Brew"><br>
+					<label id="how-many-times-label">How many times a week do you drink beer?</label><br>
+					<select>
+						<option>Select an option</option>
+						<option value="1-2">1-2</option>
+						<option value="3-4">3-4</option>
+						<option value="5-6">5-6</option>
+						<option value="everyday">everyday</option>
+					</select>
+					<br>
+					<div class="form-button">
+						<button id="advice">Get Advice</button>
+						<button id="get-a-beer">Get a Beer</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="secondary-container">
+			<div id="secondary-content">
+				<h1>Why choose us?</h1>
+				<h2>We're experts on finding local beer.</h2>
+				<table id="fullsize-table">
+					<tr>
+						<th>Brews Near You</th>
+						<th>Microbreweries</th>
+						<th>Events</th>
+						<th>Recommendations</th>
+					</tr>
+					<tr>
+						<td><img src="./img/sierranevada-paleale.jpg"></td>
+						<td><img src="./img/bigeyeIPA.jpg"></td>
+						<td><img src="./img/missourimule_ipa.jpg"></td>
+						<td><img src="./img/public_house.jpg"></td>
+					</tr>
+					<tr>
+						<td><p>Find where your favorite beer is carried near you.</p></td>
+						<td><p>Find microbreweries in your area to help discover your next favorite brew.</p></td>
+						<td><p>Find music, beer tastings, or any other event to complement your favorite brew.</p></td>
+						<td><p>We recommend the best beer for every taste palate or season</p></td>
+					</tr>
+				</table>
+			<!--Table to display for tablets-->
+				<table id="two-col-table">
+					<tr>
+						<th>Brews Near You</th>
+						<th>Microbreweries</th>
+					</tr>
+					<tr>
+						<td><img src="./img/sierranevada-paleale.jpg"></td>
+						<td><img src="./img/bigeyeIPA.jpg"></td>
+					</tr>
+					<tr>
+						<td><p>Find where your favorite beer is carried near you.</p></td>
+						<td><p>Find microbreweries in your area to help discover your next favorite brew.</p></td>
+					</tr>
+					<tr>
+						<th class="second-row-header">Events</th>
+						<th class="second-row-header">Recommendation</th>
+					</tr>
+					<tr>
+						<td><img src="./img/missourimule_ipa.jpg"></td>
+						<td><img src="./img/public_house.jpg"></td>
+					</tr>
+					<tr>
+						<td><p>Find music, beer tastings, or any other event to complement your favorite brew.</p></td>
+						<td><p>We recommend the best beer for every taste palate or season</p></td>
+					</tr>
+				</table>
+				<table id="one-col-table">
+					<tr><th>Brews Near You</th><tr>
+					<tr><td><img src="./img/sierranevada-paleale.jpg"></td><tr>
+					<tr><td><p>Find where your favorite beer is carried near you.</p></td></tr>
+					<tr><th>Microbreweries</th></tr>
+					<tr><td><img src="./img/bigeyeIPA.jpg"></td><tr>
+					<tr><td><p>Find microbreweries in your area to help discover your next favorite brew.</p></td></tr>
+					<tr><th>Events</th></tr>
+					<tr><td><img src="./img/missourimule_ipa.jpg"></td></tr>
+					<tr><td><p>Find music, beer tastings, or any other event to complement your favorite brew.</p></td></tr>
+					<tr><th>Recommendations</th></tr>
+					<tr><td><img src="./img/public_house.jpg"></td></tr>
+					<tr><td><p>We recommend the best beer for every taste palate or season</p></td></tr>
+				</table>
+				<button>Learn More</button>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<img src="./img/footer-graphic.png">
+		<p id="address">1234 Main Street,<br> Palos Hills, IL 60465</p>
+		<p><span>Copyright &copy; 2015 Hop Heavy </span></p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

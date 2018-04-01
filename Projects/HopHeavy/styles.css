@@ -1,0 +1,377 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	background-color: rgba(51, 51, 51, .6);
+	padding: 5px;
+}
+
+header img {
+	margin: 0 0 20px 50px;
+	width: 300px;
+}
+
+/***********************************
+Navigation
+***********************************/
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	float: right;
+	padding-right: 10px;
+	font-family: sans-serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	margin: 30px 40px 0 0;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	text-decoration: none;
+	color: #a7a934;
+}
+
+nav ul li a:hover {
+	color: #52530d;
+}
+
+#mobile-nav-icon {
+	display: none;
+}
+
+/***********************************
+Body
+***********************************/
+#background {
+	background-image: url("./img/beermarket.jpg");
+	background-size: cover;
+
+}
+
+#headline {
+	width: 80%;
+	margin: auto;
+	line-height: 1.4;
+}
+
+#headline h1 {
+	color: white;
+	font-size: 2.4em;
+	font-family: "Open Sans", sans-serif;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+.container {
+	margin: auto;
+}
+
+/***********************************
+Main Content
+***********************************/
+
+#left-col {
+	width: 45%;
+	font-family: "Open Sans", sans-serif;
+	display: inline-block;
+	margin-right: 40px;
+	text-align: left;
+}
+
+#right-col {
+	width: 45%;
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 40px;
+	vertical-align: top;
+}
+
+label {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	font-size: 0.9em;
+}
+
+input,
+select {
+	margin: 0 0 15px;
+	border-radius: 5px;
+	border: none;
+	width: 350px;
+	height: 30px;
+	background-color: #eee;
+	color: #999;
+	font-size: 0.8em;
+	font-family: "Open Serif", sans-serif;
+}
+
+input {
+	padding-left: 10px;
+}
+
+#left-col h3 {
+	font-size: 2.15em;
+	font-family: "Slabo 27px", serif;
+	font-weight: 500;
+}
+
+button {
+	margin: 30px 5px;
+	background-color: #FF602A;
+	color: white;
+	text-align: center;
+	padding: 10px 30px;
+	border-radius: 20px;
+	border: none;
+	font-size: 1.05em;
+}
+
+button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+#get-a-beer,
+#learn-more {
+	background-color: #3399ff;
+}
+
+#learn-more{
+	background-color: 
+}
+
+.main-content {
+	margin: 60px auto 20px;
+	width: 80%;
+	text-align: center;
+}
+
+/***********************************
+Secondary Content
+***********************************/
+
+#secondary-container {
+	background-color: #f0e7c1;
+}
+
+#secondary-content {
+	width: 80%;
+	margin: auto;
+	padding: 30px 0;
+	text-align: center;
+}
+
+#secondary-content h1 {
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+	font-size: 2.1em;
+}
+
+#secondary-content h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
+table {
+	margin: auto;
+}
+
+th {
+	font-size: 1.4em;
+	color: #444;
+	font-family: "Open Sans", sans-serif;
+}
+
+td img {
+	padding: 25px 0;
+	width: 200px;
+	border-radius: 50%;
+}
+
+table p {
+	width: 63%;
+	padding: 0;
+	margin: auto;
+	color: #555;
+	font-family: "Open Sans", sans-serif;
+}
+
+td{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 300px;
+	vertical-align: top;
+}
+
+#two-col-table {
+	display: none;
+}
+
+#one-col-table {
+	display: none;
+}
+
+/***********************************
+Footer
+***********************************/
+
+footer {
+	background-color: #333;
+	color: #bbb;
+	margin: 0;
+	padding: 30px 100px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.9em;
+}
+
+footer p span {
+	color: #818213;
+}
+
+footer img {
+	float: right;
+	width: 100px;
+}
+
+/*****************************************************
+Mobile Styles
+*****************************************************/
+@media screen and (max-width: 1120px) {
+	header {
+		padding: 0;
+	}
+
+	header img{
+		padding-top: 15px;
+	}
+
+	#two-col-table {
+		display: block;
+	}
+
+	.second-row-header {
+		padding-top: 80px;
+	}
+
+	#fullsize-table {
+		display: none;
+		width: 80%;
+	}
+
+	#right-col {
+		margin: auto;
+		width: 360px;
+		display: block;
+	}
+
+	#left-col {
+		margin: 0 auto 50px;
+		width: 80%;
+		display: block;
+	}
+
+	#left-col p {
+		text-align: left;
+	}
+
+	#main-content {
+		width: 90%;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: block;
+	}
+
+	#mobile-nav-icon {
+		width: 60px;
+		border-radius: 5px;
+		right: 20px;
+		top: 20px;
+		position: absolute;
+		display: block;
+		opacity: 0.75;
+	}
+
+	.mobile-nav ul {
+		border-top: solid 2px #333;
+		list-style-type: none;
+		margin-top: 0;
+		text-align: center;
+		background-color: rgba(224, 209, 145, 0.75);
+	}
+
+	.mobile-nav ul li{
+		font-size: 1.3em;
+		padding: 10px 0;
+		font-family: "Open Sans", sans-serif;
+	}
+
+	.mobile-nav ul li a:link,
+	.mobile-nav ul li a:visited {
+		text-decoration: none;
+		color: #52530d;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	#one-col-table {
+		display: block;
+	}
+
+	#mobile-nav-icon {
+		width: 48px;
+	}
+
+	#one-col-table th {
+		padding-top: 50px;
+	}
+
+	#two-col-table {
+		display: none;
+	}
+
+	#headline {
+		text-align: center;
+	}
+
+	footer img {
+		display: none;
+	}
+
+	footer {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#mobile-nav-icon {
+		top: 93px;
+		right: 10px;
+		border-radius: 0 0 5px 5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Guess My Number Game</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+	<img src="GuessMyNumberLogo.png" alt="Logo" id="logo">
+	<table>
+		<tr>
+			<td colspan="2"><h1>Set Number Range</h1></td>
+			<td rowspan="2">
+				<form>
+					<input type="submit" name="startButton" value="Start" id="startButton" class="button">
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<form>
+					From:<br/>
+					<input type="text" name="fromInput" id="fromInput" value="" class="number-input">
+				</form>
+			</td>
+			<td>
+				<form>
+					To:<br/>
+					<input type="text" name="toInput" id="toInput" value="" class="number-input">
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<hr>
+				<form>
+					<input type="text" name="directions" id="gameDirections" value="Please set range of numbers and press the Start button." class="directions" readonly>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<form>
+					<input type="text" name="guess" id="guessInput"><br/>
+					<input type="submit" name="guessButton" value="Guess" id="guessButton" class="button" >
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<hr>
+				<form>
+					<input type="text" name="numbersGuessed" id="numbersGuessed" value="" class="directions" readonly>
+				</form>
+			</td>
+		</tr>
+	</table>
+	<footer>
+		&copy; Greg Thomas 2015
+	</footer>
+</body>
+</html>

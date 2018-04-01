@@ -1,0 +1,550 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+body {
+	background-color: #111;
+	margin: 0 auto;
+}
+
+/**********************Header**********************/
+.overlay {
+	background-image: url("./oakImg/brick-texture.jpg");
+	background-size: 220px;
+	max-height: 109px;
+	border-bottom: 1px solid white;
+}
+
+.mobile-banner {
+	text-align: center;
+	margin-bottom: 5px;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.mobile-banner img {
+	width: 180px;
+}
+
+nav a {
+	text-align: center;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+#home-mobile-nav {
+	width: 100%;
+}
+
+#home-mobile-nav img{
+	width: 100%;
+	float: right;
+}
+
+#mobile-nav {
+	display: none;
+}
+
+#mobile-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#mobile-nav ul li{
+	list-style-type: none;
+	font-size: 1.8em;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+}
+
+#mobile-nav a:link,
+#mobile-nav a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#mobile-nav-icon {
+	position: absolute;
+	right: 10px;
+	top: 55px;
+	width: 55px;
+}
+/**********************Footer**********************/
+.social-media-icons {
+	text-align: center;
+	padding: 15px 0 0;
+}
+
+footer {
+	background-color: #111;
+	color: white;
+	height: 60px;
+	clear: both;
+}
+
+footer img {
+	border-radius: 5px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.copy {
+	text-align: center;
+	padding: 10px 0 10px;
+	margin: 0;
+}
+
+/**********************All Pages**********************/
+.secondary-content {
+	background-image: url("./oakImg/boards.jpg");
+	background-size: cover;
+	width: 100%;
+	padding: 20px;
+	margin: auto;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+}
+
+.secondary-content h1,
+.secondary-content h2,
+.secondary-content h3 {
+	font-family: "Slabo 27px", serif;
+	font-weight: 400;
+}
+
+.secondary-content h2 {
+	font-size: 1.9em;
+	border-bottom: 2px solid white;
+}
+
+.secondary-content h3 {
+	font-size: 1.7em;
+	margin: 0;
+}
+/**********************Menu Page**********************/
+.menu {
+	width: 90%;
+	margin: auto;
+}
+
+.menu dt {
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+.menu h1 {
+	margin: 0;
+	padding-top: 50px;
+}
+
+.soups-salads hr {
+	width: 40%;
+	border: 1px solid white;
+	margin-left: 0;
+}
+/**********************About Page**********************/
+#about-img{
+	margin: auto;
+	text-align: center;
+}
+
+.about hr {
+	border: 1px solid white;
+}
+
+.about img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.pub-hours {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	width: 85%;
+}
+
+.info h2 {
+	margin: 30px 0 0;
+}
+
+.list-title {
+	font-weight: 600;
+}
+
+.fullsize-about {
+	display: none;
+}
+
+#fullsize-list-img,
+#fullsize-list-img-two {
+	display: none;
+}
+
+.info-right-col {
+	display: none;
+}
+/**********************Events Page**********************/
+#calendar {
+	display: none;
+}
+
+.mobile-events {
+	padding: 10px;
+	margin: auto;
+	width: 100%;
+}
+
+.event-schedule ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+.day-of-week {
+	font-size: 1.2em;
+	font-weight: 600;
+	text-align: center;
+	border-bottom: 1px solid white;
+	margin-bottom: 10px;
+}
+
+.event-photos {
+	display: none;
+}
+
+#stockton-photoneers-img {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	#home-mobile-nav {
+		display: none;
+	}
+
+	#mobile-nav-icon {
+		display: none;
+	}
+
+	.mobile-banner {
+		display: none;
+	}
+
+	nav {
+		display: inline-block;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.75);
+		text-align: center;
+	}
+
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+	}
+
+	nav img {
+		width: 160px;
+	}
+
+	nav ul li {
+		display: inline;
+	}
+
+	nav a:link,
+	nav a:visited {
+		color: white;
+		text-transform: uppercase;
+		font-family: sans-serif;
+		font-weight: 600;
+		font-size: 0.85em;
+		text-decoration: none;
+	}
+
+	nav a {
+		padding-bottom: 100px;
+		position: relative;
+		top: -38px;
+		padding: 0 15px;
+	}
+
+	.fullsize-banner {
+		width: 80%;
+		margin: auto;
+	}
+
+	.nav-left {
+		padding-right: 40px;
+	}
+
+	.nav-right {
+		padding-left: 40px;
+	}
+
+/**********************Home Page(min-width:768px)**********************/
+	.home-right-col {
+		float: right;
+		width: 35%;
+	}
+
+	.home-right-col ul{
+		width: 95%;
+		font-size: 0.85em;
+		margin: 0 auto;
+		padding: 30px 0 145px;
+	}
+
+	.home-right-col img {
+		width: 80%;
+		margin: auto;
+		display: block;
+	}
+
+	.home-right-col h2 {
+		text-align: center;
+	}
+
+	.home-right-col a:link,
+	.home-right-col a:visited {
+		color: white;
+		text-decoration: none;
+		font-family: "Slabo 27px", serif;
+	}
+
+	.home-right-col p {
+		color: white;
+		font-family: "Open Sans", sans-serif;
+		text-align: center;
+	}
+
+	#address-title {
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+
+	.home-left-col {
+		width: 65%;
+		background-color: #eee;
+		padding-bottom: 100px;
+	}
+
+	.home-left-col img {
+		width: 100%;
+	}
+
+	.home-left-col h1 {
+		color: #222;
+		font-family: "Slabo 27px", serif;
+		font-size: 1.75em;
+		text-align: center;
+	}
+
+	.home-left-col p {
+		width: 75%;
+		margin: auto;
+		text-indent: 20px;
+		color: #222;
+		font-family: "Open Sans", sans-serif;
+		font-size: 0.95em;
+	}
+
+/**********************About Page(min-width:768px)**********************/
+	.secondary-content {
+		padding: 0;
+	}
+	
+	.bar-photo {
+		width: 100%;
+		height: 200px;
+		text-align: center;
+		padding: 0;
+		background-image: url("./oakImg/bar.jpg");
+		background-size: 100%;
+		background-position: 0 -240px;
+		background-repeat: no-repeat;
+	}
+
+	.about {
+		display: none;
+	}
+
+	.fullsize-about {
+		display: block;
+		background-color: #111;
+	}
+	
+	.fullsize-about #about-img ul {
+		list-style-type: none;
+		padding: 0;
+		display: inline;
+	}
+
+	.fullsize-about  #about-img li{
+		padding: 0;
+		display: inline;
+
+	}
+
+	.fullsize-about img {
+		width: 50%;
+		float: right;
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	.fullsize-about .info h2 {
+		color: white;
+		text-align: center;
+		font-family: "Slabo 27px", sans-serif;
+		font-size: 2.4em;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+		clear: both;
+	}
+
+	.fullsize-about .info p {
+		background-color: #eee;
+		font-family: "Open Sans", sans-serif;
+		font-size: 1.1em;
+		padding: 30px 20px;
+		margin-bottom: 0;
+		text-indent: 30px;
+	}
+
+	.pub-hours {
+		color: white;
+		margin-bottom: 40px;
+		font-family: "Open Sans", sans-serif;
+		text-align: left;
+		width: 60%;
+		height: 120px;
+	}
+
+	.pub-hours ul {
+		display: block;
+		list-style-type: none;
+		font-size: 1.2em;
+	}
+
+	.list-title {
+		text-align: center;
+		font-size: 1.4em;
+	}
+
+/**********************Events Page(min-width:768px)**********************/
+	.event-schedule {
+		width: 372px;
+		margin: 0;
+		padding: 10px;
+		display: inline-block;
+		text-align: left;
+	}
+
+	.mobile-events {
+		width: 100%;
+		padding: 0;
+		margin: auto;
+		text-align: center;
+		
+	}
+
+	.mobile-events ul {
+		padding: 0;
+		width: 100%;
+	}
+
+	.mobile-events p {
+		width: 60%;
+		text-align: left;
+		margin: auto;
+		padding: 30px 0;
+		color: #222;
+		text-indent: 30px;
+
+	}
+
+	#event-bg {
+		width: 100%;
+		background-color: #eee;
+	}
+
+	#event-bg h2 {
+		font-family: "Slabo 27px", serif;
+		color: #222;
+		margin: 0;
+		padding-top: 30px;
+		font-size: 2em;
+		font-weight: bold;
+		border-bottom: none;
+	}
+
+	.event-photos {
+		display: inline-block;
+		width: 372px;
+		margin: 0;
+	}
+
+	.events img {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#fullsize-list-img {
+		display: block;
+	}
+
+	.fullsize-about img {
+		width: 33%;
+		float: right;
+	}
+
+	.home-right-col {
+		width: 20%;
+	}
+
+	.home-left-col {
+		width: 80%;
+	}
+
+	.home-left-col img {
+		width: 786px;
+		padding-top: 30px; 
+		margin: auto;
+		display: block;
+	}
+
+	.pub-hours {
+		width: 40%;
+	}
+
+	.event-schedule {
+		margin: 30px
+	}
+
+	#stockton-photoneers-img {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.info p {
+		width: 50%;
+		margin: auto;
+		clear: both;
+	}
+
+	#fullsize-bg {
+		width: 100%;
+		background-color: #eee;
+	}
+
+	.home-left-col p {
+		width: 62%;
+	}
+}

@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Memory Game</title>
+	<link rel="stylesheet" type="text/css" href="memory.css">
+	<link href='https://fonts.googleapis.com/css?family=Pacifico|Arimo:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="container">
+		<h1>Memory Game</h1>
+		
+		<p>Click the tiles and reveal matching images.</p>
+		<div id="stats">
+			<h3>Clicks: <span id="attempt-count"> </span></h3>
+			<h3>Matches: <span id="match-count"> </span></h3>
+		</div>
+		<div class="memory-grid">
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+			<a href="#"><img src="./img/tile.jpg" class="tile" alt="tile image"/></a>
+		</div>
+		<div class="buttons">
+			<button type="button" id="reset-tiles">Reset Tiles</button>
+			<button type="button" id="show-tiles">Show Tiles</button>
+		</div>
+		<footer>&copy; Greg Thomas</footer>
+		<div id="victory-message">
+			<h1>You Won!</h1>
+			<h3>It only took you <span id="attempts"></span> tries!</h3>
+			<h4>Play Again?</h2>
+			<button type="button" id="win-reset">Reset Tiles</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="memory-script.js"></script>
+</body>
+</html>
